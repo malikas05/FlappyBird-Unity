@@ -4,14 +4,14 @@ using UnityEngine;
 
 /*
     Source file name: GameData.cs
-    Author's name: Malik Iavari
+    Author's name: Malik Iavari - 101043865
     Last modified by: Malik Iavari
-    Date last modified: Oct 18, 2017
+    Date last modified: Oct 19, 2017
     Program description: This class is for storing the player's
                         results. We use a singleton pattern here
                         in order to have only one instance of that class
                         which provides us consistency of the data.
-    Revision history:
+    Revision history: Updated Life property
 */
 
 public class GameData {

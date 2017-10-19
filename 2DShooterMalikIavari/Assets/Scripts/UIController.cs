@@ -6,15 +6,15 @@ using UnityEngine.SceneManagement;
 
 /*
     Source file name: UIController.cs
-    Author's name: Malik Iavari
+    Author's name: Malik Iavari - 101043865
     Last modified by: Malik Iavari
-    Date last modified: Oct 18, 2017
+    Date last modified: Oct 19, 2017
     Program description: This script is basically controls UI of 
                         the game. On the start up some labels
                         are shown to user, some of them are hidden.
                         When the game over action occurs, it changes
                         the state of the labels and button.
-    Revision history:
+    Revision history: ResetBtnClick was added for restarting the game
 */
 
 public class UIController : MonoBehaviour {

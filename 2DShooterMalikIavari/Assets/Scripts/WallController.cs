@@ -4,16 +4,16 @@ using UnityEngine;
 
 /*
     Source file name: WallController.cs
-    Author's name: Malik Iavari
+    Author's name: Malik Iavari - 101043865
     Last modified by: Malik Iavari
-    Date last modified: Oct 18, 2017
+    Date last modified: Oct 19, 2017
     Program description: This script is basically controls the 
                         wall objects. It is moving them to the 
                         left to make a sense of moving our character.
                         When the wall position is less than the 
                         left X coordinate, then reset the position of the
                         wall object to the random position.
-    Revision history:
+    Revision history: ChangeDirection was added to switch direction of the wall
 */
 
 public class WallController : MonoBehaviour {

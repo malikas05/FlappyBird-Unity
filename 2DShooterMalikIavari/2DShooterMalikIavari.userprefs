@@ -1,14 +1,5 @@
 ﻿<Properties StartupConfiguration="{AD2A4D16-BA36-14A1-71B5-AEA380E46D5E}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UIController.cs">
-    <Files>
-      <File FileName="Assets/Scripts/BirdCollision.cs" Line="69" Column="62" />
-      <File FileName="Assets/Scripts/BirdController.cs" Line="13" Column="52" />
-      <File FileName="Assets/Scripts/CoinController.cs" Line="16" Column="74" />
-      <File FileName="Assets/Scripts/GameData.cs" Line="13" Column="61" />
-      <File FileName="Assets/Scripts/GroundController.cs" Line="15" Column="31" />
-      <File FileName="Assets/Scripts/UIController.cs" Line="2" Column="33" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

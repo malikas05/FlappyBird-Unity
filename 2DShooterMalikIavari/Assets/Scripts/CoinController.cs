@@ -4,9 +4,9 @@ using UnityEngine;
 
 /*
     Source file name: CoinController.cs
-    Author's name: Malik Iavari
+    Author's name: Malik Iavari - 101043865
     Last modified by: Malik Iavari
-    Date last modified: Oct 18, 2017
+    Date last modified: Oct 19, 2017
     Program description: This script is basically controls the 
                         coin object. It is moving to the 
                         left to make a sense of moving our character.
@@ -14,7 +14,7 @@ using UnityEngine;
                         left X coordinate, then reset the position of the
                         coin object. When coin collides with our bird object,
                         it dissapears and then appears on a new position.
-    Revision history:
+    Revision history: ResetPosition method works correctly
 */
 
 public class CoinController : MonoBehaviour {

@@ -4,16 +4,16 @@ using UnityEngine;
 
 /*
     Source file name: GroundController.cs
-    Author's name: Malik Iavari
+    Author's name: Malik Iavari - 101043865
     Last modified by: Malik Iavari
-    Date last modified: Oct 18, 2017
+    Date last modified: Oct 19, 2017
     Program description: This script is basically controls the 
                         ground object. It is moving to the 
                         left to make a sense of moving our character.
                         When the ground position is less than the 
                         left X coordinate, then reset the position of the
                         ground object.
-    Revision history:
+    Revision history: Y coordinate in ResetPosition method was updated
 */
 
 public class GroundController : MonoBehaviour {

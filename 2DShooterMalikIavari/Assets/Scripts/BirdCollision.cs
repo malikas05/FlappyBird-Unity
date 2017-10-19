@@ -4,16 +4,16 @@ using UnityEngine;
 
 /*
     Source file name: BirdCollision.cs
-    Author's name: Malik Iavari
+    Author's name: Malik Iavari - 101043865
     Last modified by: Malik Iavari
-    Date last modified: Oct 18, 2017
+    Date last modified: Oct 19, 2017
     Program description: This script is basically controls the 
                         collision of bird object with other
                         objects. When the collision occurs,
                         some music plays to make a sense of
                         either collecting a coin or colliding with 
                         the obstacle.
-    Revision history:
+    Revision history: Added audio sources
 */
 
 public class BirdCollision : MonoBehaviour {

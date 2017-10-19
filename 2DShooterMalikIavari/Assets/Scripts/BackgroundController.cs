@@ -4,16 +4,16 @@ using UnityEngine;
 
 /*
     Source file name: BackgroundController.cs
-    Author's name: Malik Iavari
+    Author's name: Malik Iavari - 101043865
     Last modified by: Malik Iavari
-    Date last modified: Oct 18, 2017
+    Date last modified: Oct 19, 2017
     Program description: This script is basically controls the 
                         background object. It is moving to the 
                         left to make a sense of moving our character.
                         When the background position is less than the 
                         left X coordinate, then reset the position of the
                         background object.
-    Revision history:
+    Revision history: Updated the part of the code where the position is reseted correctly
 */
 
 public class BackgroundController : MonoBehaviour {
