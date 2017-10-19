@@ -1380,8 +1380,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.1
-  startX: 11
-  endX: -11
+  leftX: -11
+  rightX: 11
 --- !u!1001 &1536227800
 Prefab:
   m_ObjectHideFlags: 0
@@ -1420,6 +1420,26 @@ Prefab:
     - target: {fileID: 4249514933727938, guid: 3e699f12bf08b4bc2bfce3e1608f080d, type: 2}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114624857922834516, guid: 3e699f12bf08b4bc2bfce3e1608f080d,
+        type: 2}
+      propertyPath: leftX
+      value: -11
+      objectReference: {fileID: 0}
+    - target: {fileID: 114624857922834516, guid: 3e699f12bf08b4bc2bfce3e1608f080d,
+        type: 2}
+      propertyPath: rightX
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 114624857922834516, guid: 3e699f12bf08b4bc2bfce3e1608f080d,
+        type: 2}
+      propertyPath: topY
+      value: 5.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114624857922834516, guid: 3e699f12bf08b4bc2bfce3e1608f080d,
+        type: 2}
+      propertyPath: downY
+      value: -3.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3e699f12bf08b4bc2bfce3e1608f080d, type: 2}
@@ -1593,6 +1613,16 @@ Prefab:
     - target: {fileID: 1020435211849486, guid: a031623f71d8048749db226005a861a4, type: 2}
       propertyPath: m_TagString
       value: wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 114707449722864858, guid: a031623f71d8048749db226005a861a4,
+        type: 2}
+      propertyPath: leftX
+      value: -11
+      objectReference: {fileID: 0}
+    - target: {fileID: 114707449722864858, guid: a031623f71d8048749db226005a861a4,
+        type: 2}
+      propertyPath: rightX
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 65734784050602872, guid: a031623f71d8048749db226005a861a4, type: 2}
