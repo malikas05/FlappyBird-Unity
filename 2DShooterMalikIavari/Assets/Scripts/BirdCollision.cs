@@ -2,6 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+    Source file name: BirdCollision.cs
+    Author's name: Malik Iavari
+    Last modified by: Malik Iavari
+    Date last modified: Oct 18, 2017
+    Program description: This script is basically controls the 
+                        collision of bird object with other
+                        objects. When the collision occurs,
+                        some music plays to make a sense of
+                        either collecting a coin or colliding with 
+                        the obstacle.
+    Revision history:
+*/
+
 public class BirdCollision : MonoBehaviour {
 
     #region
@@ -52,6 +66,7 @@ public class BirdCollision : MonoBehaviour {
         }
     }
 
+    // Note: this code was taken from the lab class on week 6
     // Called for blinking the bird when the collision with wall occurs 
     private IEnumerator Blink()
     {

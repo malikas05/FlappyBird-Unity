@@ -2,6 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+    Source file name: BirdController.cs
+    Author's name: Malik Iavari
+    Last modified by: Malik Iavari
+    Date last modified: Oct 18, 2017
+    Program description: This script is basically controls the 
+                        bird object. It is moving down by default
+                        but moving up when the player presses
+                        either up arrow or "W" key.
+    Revision history:
+*/
+
 public class BirdController : MonoBehaviour {
 
     #region

@@ -2,6 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+    Source file name: CoinController.cs
+    Author's name: Malik Iavari
+    Last modified by: Malik Iavari
+    Date last modified: Oct 18, 2017
+    Program description: This script is basically controls the 
+                        coin object. It is moving to the 
+                        left to make a sense of moving our character.
+                        When the coin position is less than the 
+                        left X coordinate, then reset the position of the
+                        coin object. When coin collides with our bird object,
+                        it dissapears and then appears on a new position.
+    Revision history:
+*/
+
 public class CoinController : MonoBehaviour {
 
     #region
@@ -46,8 +61,8 @@ public class CoinController : MonoBehaviour {
     // Called when the reset for coin object is needed
     public void ResetPosition()
     {
-        float y = Random.Range(topY, downY);
-        float dx = Random.Range(0, 1);
+        float y = Random.Range(topY, downY); // random value for Y coordinate
+        float dx = Random.Range(0, 1); // random value for X coordinate between 0 and 1
         _transform.position = new Vector2(rightX - dx, y);
     }
 }

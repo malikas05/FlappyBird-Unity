@@ -922,6 +922,26 @@ Prefab:
       propertyPath: m_TagString
       value: bird
       objectReference: {fileID: 0}
+    - target: {fileID: 50314144118996920, guid: 8ca74848d87f348b2a55485e68246508,
+        type: 2}
+      propertyPath: m_LinearDrag
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 50314144118996920, guid: 8ca74848d87f348b2a55485e68246508,
+        type: 2}
+      propertyPath: m_GravityScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 50314144118996920, guid: 8ca74848d87f348b2a55485e68246508,
+        type: 2}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 50314144118996920, guid: 8ca74848d87f348b2a55485e68246508,
+        type: 2}
+      propertyPath: m_Simulated
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8ca74848d87f348b2a55485e68246508, type: 2}
   m_IsPrefabParent: 0

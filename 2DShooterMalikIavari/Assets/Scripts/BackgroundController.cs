@@ -3,11 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /*
-    Source file name: BackgroundController
+    Source file name: BackgroundController.cs
     Author's name: Malik Iavari
     Last modified by: Malik Iavari
-    Date last modified: 
-    Program description: 
+    Date last modified: Oct 18, 2017
+    Program description: This script is basically controls the 
+                        background object. It is moving to the 
+                        left to make a sense of moving our character.
+                        When the background position is less than the 
+                        left X coordinate, then reset the position of the
+                        background object.
     Revision history:
 */
 
